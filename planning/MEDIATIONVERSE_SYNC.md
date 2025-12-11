@@ -6,15 +6,15 @@
 
 ## 📦 Package Overview
 
-| Package | Version | CRAN | Dev Branch | Last Release |
-|---------|---------|------|------------|--------------|
-| [mediationverse](https://github.com/Data-Wise/mediationverse) | | | `main` | |
-| [medfit](https://github.com/Data-Wise/medfit) | | | `main` | |
-| [probmed](https://github.com/Data-Wise/probmed) | | | `main` | |
-| [rmediation](https://github.com/Data-Wise/rmediation) | | | `main` | |
-| [medrobust](https://github.com/Data-Wise/medrobust) | | | `main` | |
-| [medsim](https://github.com/Data-Wise/medsim) | | | `main` | |
-| [missingmed](https://github.com/Data-Wise/missingmed) | | | `main` | |
+| Package | Version | CRAN | Dev Branch | Last Activity |
+|---------|---------|------|------------|---------------|
+| [mediationverse](https://github.com/Data-Wise/mediationverse) | 0.0.0.9000 | ❌ | `main` | 2025-12-09 (altdoc) |
+| [medfit](https://github.com/Data-Wise/medfit) | 0.1.0.9000 | ❌ | `main` | 2025-12-04 (navbar) |
+| [probmed](https://github.com/Data-Wise/probmed) | 0.0.0.9000 | ❌ | `main` | 2025-12-04 (pkgdown) |
+| [rmediation](https://github.com/Data-Wise/rmediation) | 1.4.0 | ✅ | `main` | 2025-12-05 (docs) |
+| [medrobust](https://github.com/Data-Wise/medrobust) | 0.1.0.9000 | ❌ | `main` | 2025-12-04 (pkgdown) |
+| [medsim](https://github.com/Data-Wise/medsim) | 0.0.0.9000 | ❌ | `main` | 2025-12-04 (badges) |
+| [missingmed](https://github.com/Data-Wise/missingmed) | — | ❌ | `scratch` | In development |
 
 ---
 
@@ -39,10 +39,10 @@ mediationverse (meta-package)
 
 ### Upcoming Releases
 
-- **Next Release Window**: [Date Range]
+- **Next Release Window**: Q1 2025 (Jan-Mar 2025)
 - **Target Packages**:
-  - [ ] Package 1 - v0.x.0
-  - [ ] Package 2 - v0.x.0
+  - [ ] medfit - v0.1.0 (foundation - PRIORITY)
+  - [ ] rmediation - v1.4.1 (update with medfit changes)
 
 ### Release Checklist (Per Package)
 
@@ -87,12 +87,12 @@ mediationverse (meta-package)
 
 ### Current Status
 
-- [ ] `medfit` - S7 migration complete
-- [ ] `probmed` - Not started
-- [ ] `rmediation` - Not started
-- [ ] `medrobust` - Not started  
-- [ ] `medsim` - Not started
-- [ ] `missingmed` - Not started
+- [/] `medfit` - S7 migration in progress (v0.1.0.9000)
+- [ ] `probmed` - Not started (waiting for medfit)
+- [ ] `rmediation` - Not started (waiting for medfit)
+- [ ] `medrobust` - Not started (waiting for medfit)
+- [ ] `medsim` - Not started (waiting for medfit)
+- [ ] `missingmed` - Not started (early development)
 - [ ] `mediationverse` - Awaiting dependencies
 
 ---
@@ -124,9 +124,11 @@ Last checked: [Date]
 
 ### Q1 2025
 
-- [ ] Goal 1
-- [ ] Goal 2
-- [ ] Goal 3
+- [ ] Complete medfit S7 migration and CRAN submission
+- [ ] Pilot altdoc on mediationverse (DONE ✅ 2025-12-09)
+- [ ] Standardize pkgdown sites across all packages
+- [ ] Run R CMD check --as-cran on all packages
+- [ ] Prepare probmed and rmediation for Q2 submissions
 
 ---
 
