@@ -1,6 +1,6 @@
-# Data-Wise Complete Ecosystem Inventory (Local + GitHub)
+# Data-Wise Complete Ecosystem Inventory
 
-**Last Updated**: 2025-12-10
+**Last Updated**: 2025-12-11
 
 ---
 
@@ -8,9 +8,10 @@
 
 ### GitHub Status
 
-- **On GitHub**: 14 repositories
-- **Missing from GitHub**: 6 repositories (all in `dev-tools`)
+- **On GitHub**: 19 repositories ✅
+- **Archived Locally**: 1 repository (workspace-auditor)
 - **Total Ecosystem Size**: **20 repositories**
+- **Phase 1 Status**: ✅ **100% COMPLETE**
 
 ### R Packages
 
@@ -45,11 +46,9 @@
 |------------|----------|--------|--------|-------|
 | claude-r-dev | `dev-tools/` | ✅ [Public](https://github.com/Data-Wise/claude-r-dev) | Active | MkDocs site |
 | r-package-dev-gemini | `dev-tools/` | ✅ [Public](https://github.com/Data-Wise/r-package-dev-gemini) | Active | 20 commands |
-| **claude-statistical-research** | `dev-tools/` | ❌ **LOCAL ONLY** | Active | **MCP server! Needs GitHub** |
-| zsh-claude-workflow | `dev-tools/` | ❌ **LOCAL ONLY** | Active | Shell automation |
-| obsidian-cli-ops | `dev-tools/` | ❌ **LOCAL ONLY** | Active | Obsidian integration |
-
-**FOUND**: `claude-statistical-research` exists locally with MCP server!
+| claude-statistical-research-mcp | `dev-tools/` | ✅ [Private](https://github.com/Data-Wise/claude-statistical-research-mcp) | Active | MCP server |
+| zsh-claude-workflow | `dev-tools/` | ✅ [Public](https://github.com/Data-Wise/zsh-claude-workflow) | Active | Shell automation |
+| obsidian-cli-ops | `dev-tools/` | ✅ [Public](https://github.com/Data-Wise/obsidian-cli-ops) | Active | Obsidian integration |
 
 ---
 
@@ -76,62 +75,46 @@
 |------------|----------|--------|--------|-------|
 | examark | (unknown location) | ✅ [Public](https://github.com/Data-Wise/examark) | Active | Canvas QTI converter |
 | unm-revealjs | (unknown location) | ✅ [Public](https://github.com/Data-Wise/unm-revealjs) | Active | Quarto extension |
-| **homebrew-tap** | `dev-tools/` | ❌ **LOCAL ONLY** | Active | Formula repository |
-| **workspace-auditor** | `dev-tools/` | ❌ **LOCAL ONLY** | Active | Dev tool |
+| homebrew-tap | `dev-tools/` | ✅ [Public](https://github.com/Data-Wise/homebrew-tap) | Active | Formula repository |
+| workspace-auditor | `dev-tools/` | 📦 **ARCHIVED** | Local only | One-time experimental tool |
 
 ---
 
-## 🚨 Repositories Missing from GitHub (6)
+## ✅ GitHub Push Complete
 
-### HIGH PRIORITY - Should Push to GitHub
+### Successfully Pushed (December 2025)
 
-1. **claude-statistical-research** (`dev-tools/`)
-   - Contains MCP server (mentioned in Data-Wise README!)
-   - Solves the "missing MCP server" mystery
-   - **Action**: Push to `Data-Wise/claude-statistical-research-mcp`
+1. ✅ **claude-statistical-research-mcp** - Pushed 2025-12-09 (Private)
+2. ✅ **zsh-claude-workflow** - Pushed 2025-12-07 (Public)
+3. ✅ **obsidian-cli-ops** - Pushed 2025-12-11 (Public)
+4. ✅ **homebrew-tap** - Pushed 2025-12-08 (Public)
+5. ✅ **data-wise planning/** - Committed 2025-12-09
+6. ✅ **workspace-auditor decision** - Archived locally 2025-12-11
 
-2. **zsh-claude-workflow** (`dev-tools/`)
-   - Shell-based Claude automation
-   - Complements `claude-r-dev`
-   - **Action**: Push to `Data-Wise/zsh-claude-workflow`
+### Archived
 
-3. **obsidian-cli-ops** (`dev-tools/`)
-   - Your 3-Vault Obsidian system integration
-   - Mentioned in your user rules/memories
-   - **Action**: Push to `Data-Wise/obsidian-cli-ops`
-
-### MEDIUM PRIORITY
-
-4. **homebrew-tap** (`dev-tools/`)
-   - Contains Homebrew formulas (likely for Data-Wise tools)
-   - Useful for macOS installation
-   - **Action**: Push to `Data-Wise/homebrew-tap`
-
-5. **workspace-auditor** (`dev-tools/`)
-   - Development utility
-   - **Action**: Evaluate if this should be public
-
-6. **data-wise** (`dev-tools/`)
-   - The super project itself!
-   - **Action**: Already exists, but ensure `planning/` is committed
+1. **workspace-auditor** (`dev-tools/`) - Kept local only
+   - One-time experimental tool (used Dec 9, 2025)
+   - Not integrated into workflow
+   - **Decision**: Archive locally, don't push to GitHub
 
 ---
 
 ## 📂 Directory Structure Summary
 
-```
+```bash
 ~/projects/
 ├── dev-tools/          (10 projects)
-│   ├── claude-r-dev               ✅ GitHub
-│   ├── claude-statistical-research ❌ LOCAL ONLY (MCP!)
-│   ├── data-wise                   ✅ GitHub
-│   ├── docs-standards              ✅ GitHub
-│   ├── emacs-r-devkit             ✅ GitHub
-│   ├── homebrew-tap                ❌ LOCAL ONLY
-│   ├── obsidian-cli-ops            ❌ LOCAL ONLY
-│   ├── r-package-dev-gemini        ✅ GitHub
-│   ├── workspace-auditor           ❌ LOCAL ONLY
-│   └── zsh-claude-workflow         ❌ LOCAL ONLY
+│   ├── claude-r-dev                      ✅ GitHub (Public)
+│   ├── claude-statistical-research-mcp   ✅ GitHub (Private)
+│   ├── data-wise                         ✅ GitHub (Public)
+│   ├── docs-standards                    ✅ GitHub (Public)
+│   ├── emacs-r-devkit                   ✅ GitHub (Public)
+│   ├── homebrew-tap                      ✅ GitHub (Public)
+│   ├── obsidian-cli-ops                  ✅ GitHub (Public)
+│   ├── r-package-dev-gemini              ✅ GitHub (Public)
+│   ├── workspace-auditor                 ❌ LOCAL ONLY
+│   └── zsh-claude-workflow               ✅ GitHub (Public)
 │
 └── r-packages/
     ├── active/          (6 packages - all on GitHub)
@@ -150,63 +133,54 @@
 
 ## 🎯 Updated Ecosystem Totals
 
-- **Total Repositories**: 20 (14 on GitHub + 6 local only)
-- **Dev Tools**: 10 total (4 on GitHub + 6 local)
-- **R Packages**: 8 total (8 on GitHub, 6 actively developed locally)
-- **Applications**: 2 (2 on GitHub)
-- **Standards**: 1 (1 on GitHub)
+- **Total Repositories**: 20 (19 on GitHub + 1 archived locally)
+- **Dev Tools**: 10 total (9 on GitHub + 1 archived)
+- **R Packages**: 8 total (all on GitHub)
+- **Applications**: 2 (all on GitHub)
+- **Standards**: 1 (on GitHub)
+- **Phase 1 Status**: ✅ **100% COMPLETE**
 
 ---
 
-## 📋 Immediate Actions Required
+## ✅ Completed Actions
 
-### 1. Push Missing Repositories to GitHub ⭐ URGENT
+### 1. workspace-auditor Decision - COMPLETE
 
-**Claude Statistical Research MCP**
-
-```bash
-cd ~/projects/dev-tools/claude-statistical-research
-git init
-git add .
-git commit -m "Initial commit: Claude statistical research MCP server"
-gh repo create Data-Wise/claude-statistical-research-mcp --public --source=. --push
-```
-
-**Other Tools** (similar process for):
-
-- `zsh-claude-workflow` → `Data-Wise/zsh-claude-workflow`
-- `obsidian-cli-ops` → `Data-Wise/obsidian-cli-ops`
-- `homebrew-tap` → `Data-Wise/homebrew-tap`
-- `workspace-auditor` → `Data-Wise/workspace-auditor`
+**Decision**: Archived locally (not pushed to GitHub)
+**Reasoning**: One-time experimental tool, not integrated into workflow
 
 ### 2. Update Data-Wise README
 
-Current README shows 20 repos badge but only lists 14. Update to reflect:
+Update the main README to reflect the complete ecosystem:
 
-- **Dev Tools**: 10 repos
+- **Dev Tools**: 9 repos on GitHub (+ 1 local)
 - **R Packages**: 8 repos
-- **Total**: 20 repos
+- **Applications**: 2 repos
+- **Total**: 19 public repos
 
-### 3. Organize Project Structure
+### 3. Documentation for New Repos
 
-**Decision Needed**: Should applications like `examark` and `unm-revealjs` be moved to `dev-tools` or stay separate?
+The following repos were recently pushed and may need documentation:
 
----
-
-## 🔍 Key Discoveries
-
-1. ✅ **Found the MCP Server!** `claude-statistical-research` exists locally
-2. ✅ **Active R Package Development**: All 6 packages in `r-packages/active/`
-3. ✅ **More AI Tools**: `zsh-claude-workflow` and `obsidian-cli-ops`
-4. ⚠️  **6 repos not yet on GitHub** - missing from public ecosystem
-5. 📊 **Actual ecosystem is 30% larger** than GitHub suggests (20 vs 14 repos)
+- `claude-statistical-research-mcp` - Add README with MCP setup instructions
+- `zsh-claude-workflow` - Document shell automation workflows
+- `obsidian-cli-ops` - Document vault integration
+- `homebrew-tap` - Add formula documentation
 
 ---
 
-## Next Steps
+## 🎉 Recent Accomplishments
 
-1. **Review this inventory** - confirm all projects identified
-2. **Decide which repos should be public** vs private
-3. **Push critical repos** (especially MCP server)
-4. **Update planning documents** with complete 20-repo ecosystem
-5. **Determine missing repo locations** (examark, unm-revealjs, mbco)
+1. ✅ **All critical repos on GitHub!** (19/20 repositories)
+2. ✅ **MCP Server published** - `claude-statistical-research-mcp` (Private)
+3. ✅ **Planning infrastructure committed** - All planning docs in `data-wise` repo
+4. ✅ **AI Tools ecosystem complete** - All 5 tools now on GitHub
+5. ✅ **Homebrew tap published** - Formulas available for distribution
+
+---
+
+## Current State Summary
+
+- **Phase 1 Status**: ✅ **COMPLETE** (GitHub push completed)
+- **Next Phase**: Populate planning documents with current work
+- **Outstanding**: Decide on `workspace-auditor` public/private status
