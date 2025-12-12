@@ -1,6 +1,6 @@
 # Active Projects
 
-> **Status as of:** 2025-12-10
+> **Status as of:** 2025-12-11
 
 ---
 
@@ -8,20 +8,34 @@
 
 ### High Priority
 
-- **medfit S7 Migration & CRAN Submission**
+- **mediationverse Documentation Migration**
   - **Layer**: R Packages
   - **Lead**: DT
-  - **Status**: 🟡 In Progress
-  - **Target**: Q1 2025 (CRAN submission)
+  - **Status**: 🟢 Active (last push: 2025-12-10)
+  - **Target**: Complete altdoc for all packages
   - **Blockers**: None
-  - **Details**: Foundation package - all other packages depend on this
+  - **Details**: Successfully piloted altdoc with Quarto; rolling out to other packages
 
-- **mediationverse altdoc Documentation**
-  - **Layer**: R Packages
+- **examark Development**
+  - **Layer**: Applications
   - **Lead**: DT
-  - **Status**: 🟢 Complete (2025-12-09)
-  - **Target**: Pilot for other packages
-  - **Details**: Successfully migrated from pkgdown to altdoc with Quarto
+  - **Status**: 🟢 Active (last push: 2025-12-11)
+  - **Target**: Canvas QTI converter improvements
+  - **Details**: Renamed from canvas-qti-converter; active feature development
+
+- **r-package-dev-gemini Enhancement**
+  - **Layer**: AI Engines
+  - **Lead**: DT
+  - **Status**: 🟢 Active (last push: 2025-12-11)
+  - **Target**: Gemini CLI extension improvements
+  - **Details**: 20 commands for R package development
+
+- **emacs-r-devkit Updates**
+  - **Layer**: IDE
+  - **Lead**: DT
+  - **Status**: 🟢 Active (last push: 2025-12-10)
+  - **Target**: Emacs environment for R on macOS
+  - **Details**: IDE integration enhancements
 
 ---
 
@@ -29,24 +43,24 @@
 
 ### Medium Priority
 
-- **pkgdown Site Standardization**
+- **MediationVerse R Packages - Standardization**
   - **Layer**: R Packages
-  - **Packages**: probmed, medrobust, medsim (all updated Dec 4)
-  - **Dependencies**: None
-  - **Status**: 🟢 Complete
-  - **Next**: Deploy sites to GitHub Pages
+  - **Packages**: medfit, probmed, rmediation, medrobust, medsim
+  - **Last Activity**: 2025-12-04 (batch pkgdown updates)
+  - **Status**: 🟡 Maintenance mode
+  - **Next**: Resume active development, prepare for CRAN
 
 - **claude-statistical-research-mcp Development**
   - **Layer**: AI Engines
-  - **Current Version**: v0.8.0
-  - **Branch**: dev
-  - **Status**: 🟢 Active development
-  - **Recent**: Workflow integration tests, multi-package suite
+  - **Current Version**: Private repo
+  - **Status**: 🟢 Published (2025-12-09)
+  - **Next**: Add documentation, README with setup instructions
 
-- **Data-Wise Ecosystem Planning**
+- **Data-Wise Ecosystem Coordination**
   - **Layer**: Standards
-  - **Status**: 🟢 Complete (2025-12-10)
-  - **Deliverables**: Planning infrastructure, GitHub Projects, 18 repos on GitHub
+  - **Status**: 🟢 Phase 1 Complete (2025-12-11)
+  - **Next**: Populate planning docs, sync GitHub Projects
+  - **Deliverables**: 19 repos on GitHub, planning infrastructure ready
 
 ---
 
