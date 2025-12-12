@@ -50,12 +50,12 @@ When working with Gemini, active tasks are tracked in:
 
 **Last session** (Dec 11):
 
-- ✅ Planning docs updated
-- ✅ GitHub Projects synced (7 items)
-- ✅ workspace-auditor archived
-- ✅ ADHD-friendly PM system created
+- ✅ ADHD-friendly PM system (NOW.md, ROADMAP.md, PACKAGES.md)
+- ✅ Synced GEMINI.md ↔ CLAUDE.md
+- ✅ Organized GitHub Projects board (via API)
+- 🔄 docs-standards templates created (need to push)
 
-**Next logical step**: Organize the Projects board or start medfit work
+**Next logical step**: Push docs-standards, then start medfit work
 
 ---
 
