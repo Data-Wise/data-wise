@@ -12,6 +12,7 @@
 | [PROJECT-BOARD.md](../../r-packages/PROJECT-BOARD.md) | Daily ADHD tasks |
 | [ROADMAP.md](./ROADMAP.md) | Quarterly goals |
 | [mediation-planning/](../../research/mediation-planning/) | Technical docs |
+| [GENERIC-FUNCTIONS-STRATEGY.md](../../research/mediation-planning/GENERIC-FUNCTIONS-STRATEGY.md) | API design |
 | [GitHub Projects](https://github.com/users/Data-Wise/projects/1) | Issue tracking |
 
 ---
@@ -20,6 +21,8 @@
 
 **Pick ONE and start:**
 
+- [ ] 🔴 **Review Generic Functions Strategy** - Approve design decisions
+  - See: `~/projects/research/mediation-planning/GENERIC-FUNCTIONS-STRATEGY.md`
 - [ ] 🔴 **Start medfit CRAN work** - Implement `fit_mediation()` (Week 1-2 of plan)
   - See: `implementation_plan.md` in artifacts
 
@@ -29,6 +32,7 @@
 
 - [x] Review NOW.md format ✅
 - [x] Design standards reviewed ✅
+- [x] Generic functions brainstorm ✅
 - [ ] Star important repos
 
 ---
@@ -38,13 +42,14 @@
 1. ~~**Align AI knowledge bases**~~ ✅ Done
 2. ~~**Update docs standards**~~ ✅ Done
 3. ~~**Analyze medfit package**~~ ✅ Done
-4. **Start medfit implementation** - `fit_mediation()` + `bootstrap_mediation()`
+4. ~~**Generic function strategy**~~ ✅ Doc created, needs review
+5. **Start medfit implementation** - `fit_mediation()` + `bootstrap_mediation()`
 
 ---
 
 ## Waiting On
 
-*Nothing currently blocked*
+- **Generic Functions Strategy** — Awaiting your review of 6 design decisions
 
 ---
 
@@ -60,15 +65,19 @@ When working with Gemini, active tasks are tracked in:
 
 ## Continue From Here
 
-**Last session** (Dec 11):
+**Last session** (Dec 12):
 
 - ✅ ADHD-friendly PM system implemented
-- ✅ docs-standards templates & workflows pushed
-- ✅ Design standards reviewed & summarized
-- ✅ medfit package analyzed (already in S7!)
-- ✅ 3-week CRAN plan created
+- ✅ Ecosystem tools: medplan, medcheck created
+- ✅ Comprehensive ecosystem review completed
+- ✅ Shell protocol formalized
+- ✅ Generic Function Strategy document created
+- ✅ Reviewed lavaan, CMAverse, mediation, broom patterns
 
-**Next logical step**: Start implementing `fit_mediation()` with GLM engine
+**Next logical step**: 
+1. Review GENERIC-FUNCTIONS-STRATEGY.md 
+2. Approve 6 design decisions
+3. Start implementing `fit_mediation()` with GLM engine
 
 ---
 
