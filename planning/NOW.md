@@ -34,6 +34,18 @@
 
 ---
 
+## 🤖 Antigravity Tasks
+
+When working with Gemini, active tasks are tracked in:
+
+```
+~/.gemini/antigravity/brain/[session]/task.md
+```
+
+**Current session tasks** sync with this file. Ask Gemini: *"What's my current task?"*
+
+---
+
 ## Continue From Here
 
 **Last session** (Dec 11):
