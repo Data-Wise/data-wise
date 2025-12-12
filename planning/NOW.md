@@ -12,7 +12,7 @@
 | [PROJECT-BOARD.md](../../r-packages/PROJECT-BOARD.md) | Daily ADHD tasks |
 | [ROADMAP.md](./ROADMAP.md) | Quarterly goals |
 | [mediation-planning/](../../research/mediation-planning/) | Technical docs |
-| [GitHub Projects](https://github.com/orgs/Data-Wise/projects) | Issue tracking |
+| [GitHub Projects](https://github.com/users/Data-Wise/projects/1) | Issue tracking |
 
 ---
 

@@ -5,7 +5,7 @@
 PLANNING_DIR="$HOME/projects/dev-tools/data-wise/planning"
 TECH_DIR="$HOME/projects/research/mediation-planning"
 BOARD_FILE="$HOME/projects/r-packages/PROJECT-BOARD.md"
-GITHUB_PROJECTS="https://github.com/orgs/Data-Wise/projects"
+GITHUB_PROJECTS="https://github.com/users/Data-Wise/projects/1"
 
 case "${1:-status}" in
   status|s)
