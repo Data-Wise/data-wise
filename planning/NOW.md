@@ -1,6 +1,18 @@
 # 🎯 NOW
 
-> **Last updated**: 2025-12-11 | **Session**: Documentation & medfit Analysis Complete
+> **Last updated**: 2025-12-12 | **Mode**: Option D Hybrid
+
+---
+
+## 🔗 Planning Ecosystem
+
+| Document | Purpose |
+|----------|---------|
+| **This file** | Current focus (high-level) |
+| [PROJECT-BOARD.md](../../r-packages/PROJECT-BOARD.md) | Daily ADHD tasks |
+| [ROADMAP.md](./ROADMAP.md) | Quarterly goals |
+| [mediation-planning/](../../research/mediation-planning/) | Technical docs |
+| [GitHub Projects](https://github.com/orgs/Data-Wise/projects) | Issue tracking |
 
 ---
 

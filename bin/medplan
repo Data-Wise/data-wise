@@ -1,0 +1,54 @@
+#!/bin/zsh
+# medplan - MediationVerse Planning Helper
+# Quick access to all planning resources (Option D Hybrid)
+
+PLANNING_DIR="$HOME/projects/dev-tools/data-wise/planning"
+TECH_DIR="$HOME/projects/research/mediation-planning"
+BOARD_FILE="$HOME/projects/r-packages/PROJECT-BOARD.md"
+GITHUB_PROJECTS="https://github.com/orgs/Data-Wise/projects"
+
+case "${1:-status}" in
+  status|s)
+    echo "📋 MediationVerse Planning Status"
+    echo "================================="
+    echo ""
+    echo "🔴 DO NOW:"
+    grep -A1 "^\- \[ \].*🔴\|^\- \[ \] \*\*" "$BOARD_FILE" 2>/dev/null | head -3
+    echo ""
+    echo "📦 Package Status:"
+    grep -E "^\| \*\*med|^\| \*\*prob|^\| \*\*rmed" "$BOARD_FILE" 2>/dev/null
+    echo ""
+    echo "📁 Commands: board | now | tech | github | all | sync"
+    ;;
+    
+  board|b)
+    ${EDITOR:-code} "$BOARD_FILE"
+    ;;
+    
+  now|n)
+    ${EDITOR:-code} "$PLANNING_DIR/NOW.md"
+    ;;
+    
+  tech|t)
+    ${EDITOR:-code} "$TECH_DIR"
+    ;;
+    
+  github|g)
+    open "$GITHUB_PROJECTS"
+    ;;
+    
+  all|a)
+    ${EDITOR:-code} "$BOARD_FILE" "$PLANNING_DIR/NOW.md" "$TECH_DIR"
+    open "$GITHUB_PROJECTS"
+    ;;
+    
+  sync)
+    echo "Syncing planning docs to GitHub..."
+    cd "$TECH_DIR" && git add -A && git commit -m "sync: planning docs" && git push
+    echo "✅ Done"
+    ;;
+    
+  *)
+    echo "Usage: medplan [status|board|now|tech|github|all|sync]"
+    ;;
+esac
