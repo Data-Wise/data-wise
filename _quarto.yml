@@ -33,7 +33,8 @@ website:
 format:
   html:
     theme:
-      light: flatly
-      dark: darkly
+      light: [default, custom.scss]
+      dark: [darkly, custom.scss]
     toc: true
     code-copy: true
+    highlight-style: monokai

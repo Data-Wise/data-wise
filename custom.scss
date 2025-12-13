@@ -1,0 +1,79 @@
+/*-- scss:defaults --*/
+
+// Match MkDocs Material indigo theme
+$primary: #6366f1 !default;       // Indigo (Material primary)
+$secondary: #4f46e5 !default;     // Deeper indigo
+$success: #10b981 !default;       // Emerald
+$info: #06b6d4 !default;          // Cyan
+$warning: #f59e0b !default;       // Amber
+$danger: #ef4444 !default;        // Red
+
+// Link colors
+$link-color: $primary !default;
+
+// Navbar
+$navbar-bg: $primary !default;
+$navbar-fg: #ffffff !default;
+
+// Code blocks - match Material slate
+$code-bg: #282c34 !default;
+$code-color: #abb2bf !default;
+
+/*-- scss:rules --*/
+
+// Navbar styling
+.navbar {
+  background-color: $primary !important;
+}
+
+.navbar-brand {
+  font-weight: 600;
+}
+
+// Links
+a {
+  color: $primary;
+  text-decoration: none;
+  
+  &:hover {
+    color: darken($primary, 10%);
+    text-decoration: underline;
+  }
+}
+
+// Buttons
+.btn-primary {
+  background-color: $primary;
+  border-color: $primary;
+  
+  &:hover {
+    background-color: darken($primary, 8%);
+    border-color: darken($primary, 8%);
+  }
+}
+
+// About page hero links (icons)
+.about-links .about-link {
+  background-color: $primary;
+  color: white;
+  
+  &:hover {
+    background-color: darken($primary, 10%);
+  }
+}
+
+// Code blocks
+pre {
+  background-color: #1e1e2e;
+  border-radius: 6px;
+}
+
+// Cards if used
+.card {
+  border-color: lighten($primary, 30%);
+}
+
+// Footer
+.nav-footer {
+  border-top: 1px solid lighten($primary, 40%);
+}
