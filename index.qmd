@@ -1,0 +1,45 @@
+---
+title: "Davood Tofighi"
+subtitle: "Associate Professor · University of New Mexico"
+image: assets/profile.jpg
+about:
+  id: hero-heading
+  template: trestles
+  image-shape: round
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/Data-Wise
+    - icon: envelope
+      text: Email
+      href: mailto:dtofighi@gmail.com
+    - icon: mortarboard
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=YOUR_ID
+---
+
+:::{#hero-heading}
+
+I am an Associate Professor of Statistics at the University of New Mexico, specializing in **causal inference** and **mediation analysis**.
+
+My research develops statistical methods and software for understanding causal mechanisms in psychology, public health, and behavioral sciences.
+
+:::
+
+## Research Focus
+
+- **Causal Mediation Analysis** — Methods for decomposing total effects into direct and indirect pathways
+- **Sensitivity Analysis** — Assessing robustness to unmeasured confounding
+- **Effect Size Measures** — Novel measures like P_med for mediation
+- **Statistical Software** — The [mediationverse](software.qmd) R package ecosystem
+
+## Current Projects
+
+🔬 **mediationverse** — A unified R ecosystem for mediation analysis  
+📊 **Sequential Mediation** — Methods for complex multi-mediator pathways  
+🛡️ **Sensitivity Methods** — Robustness assessment for causal claims
+
+## Recent News
+
+- **Dec 2025** — mediationverse ecosystem in active development
+- **Fall 2025** — Teaching STAT 440/540 Regression Analysis

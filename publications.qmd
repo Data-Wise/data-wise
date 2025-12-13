@@ -1,0 +1,42 @@
+---
+title: "Publications"
+---
+
+## Selected Publications
+
+*Full list available on [Google Scholar](https://scholar.google.com/citations?user=YOUR_ID)*
+
+### Methodology
+
+<!-- Add your key methods papers here -->
+
+- **Tofighi, D.**, & MacKinnon, D. P. (2011). RMediation: An R package for mediation analysis confidence intervals. *Behavior Research Methods*, 43(3), 692-700.
+
+### Applications
+
+<!-- Add your applied papers here -->
+
+### Software Papers
+
+- **Tofighi, D.** et al. (2025). mediationverse: A unified R ecosystem for mediation analysis. *In preparation*.
+
+---
+
+## Working Papers
+
+- Sequential mediation analysis with multiple mediators
+- Sensitivity analysis for causal mediation
+
+---
+
+## Conference Presentations
+
+*Recent presentations at:*
+
+- Society for Prevention Research (SPR)
+- American Statistical Association (ASA)
+- Association for Psychological Science (APS)
+
+---
+
+*For preprints and working papers, please [contact me](mailto:dtofighi@gmail.com)*

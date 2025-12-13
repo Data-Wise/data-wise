@@ -1,0 +1,81 @@
+---
+title: "Software"
+---
+
+## mediationverse
+
+A unified R ecosystem for mediation analysis, providing tools for model fitting, effect sizes, confidence intervals, sensitivity analysis, and simulation.
+
+[![GitHub](https://img.shields.io/badge/GitHub-mediationverse-blue?logo=github)](https://github.com/Data-Wise/mediationverse)
+[![Docs](https://img.shields.io/badge/Docs-Website-green)](https://data-wise.github.io/mediationverse)
+
+### Installation
+
+```r
+# Install the entire ecosystem
+pak::pak("data-wise/mediationverse")
+
+# Load all packages
+library(mediationverse)
+```
+
+### Package Ecosystem
+
+| Package | Description | Status |
+|---------|-------------|--------|
+| [**mediationverse**](https://github.com/Data-Wise/mediationverse) | Meta-package (loads all) | Development |
+| [**medfit**](https://github.com/Data-Wise/medfit) | Model fitting & extraction | Development |
+| [**probmed**](https://github.com/Data-Wise/probmed) | P_med effect sizes | Stable |
+| [**RMediation**](https://cran.r-project.org/package=RMediation) | Confidence intervals | [![CRAN](https://www.r-pkg.org/badges/version/RMediation)](https://cran.r-project.org/package=RMediation) |
+| [**medrobust**](https://github.com/Data-Wise/medrobust) | Sensitivity analysis | Development |
+| [**medsim**](https://github.com/Data-Wise/medsim) | Simulation infrastructure | Development |
+
+### Quick Example
+
+```r
+library(mediationverse)
+
+# Fit mediation models
+fit_m <- lm(Mediator ~ Treatment + Covariates, data = mydata)
+fit_y <- lm(Outcome ~ Treatment + Mediator + Covariates, data = mydata)
+
+# Extract mediation data
+med_data <- extract_mediation(fit_m, fit_y, 
+                               treatment = "Treatment", 
+                               mediator = "Mediator")
+
+# Compute effects
+effects <- compute_effects(med_data)
+ci <- ci_mediation(med_data, type = "distribution-of-product")
+sensitivity <- sensitivity_analysis(med_data)
+```
+
+---
+
+## RMediation (CRAN)
+
+Standalone package for computing confidence intervals for mediated effects using the distribution-of-product method.
+
+[![CRAN](https://www.r-pkg.org/badges/version/RMediation)](https://cran.r-project.org/package=RMediation)
+[![Downloads](https://cranlogs.r-pkg.org/badges/grand-total/RMediation)](https://cran.r-project.org/package=RMediation)
+
+```r
+install.packages("RMediation")
+library(RMediation)
+
+# Compute CI for indirect effect
+medci(mu.x = 0.5, mu.y = 0.3, 
+      se.x = 0.1, se.y = 0.1, 
+      type = "dop")
+```
+
+---
+
+## Other Tools
+
+- [**emacs-r-devkit**](https://github.com/Data-Wise/emacs-r-devkit) — Emacs configuration for R development
+- [**docs-standards**](https://github.com/Data-Wise/docs-standards) — Shared documentation standards
+
+---
+
+*All software is open source. Contributions welcome!*

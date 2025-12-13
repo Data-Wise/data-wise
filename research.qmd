@@ -1,0 +1,47 @@
+---
+title: "Research"
+---
+
+## Overview
+
+My research focuses on developing statistical methodology for **causal inference**, with particular emphasis on **mediation analysis** — understanding the mechanisms through which interventions and exposures affect outcomes.
+
+## Research Areas
+
+### Causal Mediation Analysis
+
+Developing methods to decompose total effects into natural direct and indirect effects, addressing:
+
+- Identification under various assumptions
+- Sensitivity to unmeasured confounding
+- Multiple mediators and complex pathways
+- Time-varying treatments and mediators
+
+### Effect Size Measures
+
+Novel effect size measures for mediation, including:
+
+- **P_med** — Probability-based mediation measure
+- **Proportion mediated** — Traditional and improved versions
+- **E-values** — Sensitivity analysis metrics
+
+### Statistical Computing
+
+Translating methodology into accessible software:
+
+- R packages for the mediationverse ecosystem
+- Computational methods for confidence intervals
+- Simulation tools for power analysis
+
+## Collaborations
+
+I collaborate with researchers in:
+
+- Psychology and behavioral sciences
+- Public health and epidemiology
+- Educational research
+- Clinical medicine
+
+---
+
+*Interested in collaboration? [Contact me](mailto:dtofighi@gmail.com)*

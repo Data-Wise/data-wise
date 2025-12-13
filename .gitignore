@@ -1,0 +1,18 @@
+# Quarto output
+/_site/
+/.quarto/
+
+# OS
+.DS_Store
+
+# Editor
+*.swp
+*.swo
+*~
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+**/*.quarto_ipynb

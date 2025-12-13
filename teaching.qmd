@@ -1,0 +1,47 @@
+---
+title: "Teaching"
+---
+## Current Courses
+
+### STAT 440/540: Regression Analysis
+**Fall 2025** · University of New Mexico
+
+Topics include:
+- Simple and multiple linear regression
+- Model diagnostics and assumptions
+- Variable selection and model building
+- Logistic regression
+- Introduction to mixed models
+
+### STAT 579: Applied Causal Inference
+**Upcoming** · University of New Mexico
+
+Topics include:
+- Potential outcomes framework
+- Directed acyclic graphs (DAGs)
+- Propensity score methods
+- Instrumental variables
+- Mediation analysis
+- Sensitivity analysis
+
+---
+
+## Teaching Philosophy
+
+I believe in:
+- **Application-focused learning** — Real data, real problems
+- **Statistical thinking** — Beyond formulas to understanding
+- **Reproducible workflows** — R, Quarto, version control
+- **Accessible methods** — Bridging theory and practice
+
+---
+
+## Student Resources
+
+- [Course materials on Canvas](https://canvas.unm.edu)
+- [R resources](https://data-wise.github.io/mediationverse)
+- Office hours: By appointment
+
+---
+
+*Interested in graduate research opportunities? [Contact me](mailto:dtofighi@gmail.com)*

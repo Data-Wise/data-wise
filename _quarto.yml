@@ -1,0 +1,39 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Davood Tofighi"
+  description: "Statistics, Biostatistics & Causal Mediation Analysis"
+  site-url: https://data-wise.github.io
+  
+  navbar:
+    background: primary
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Research
+        href: research.qmd
+      - text: Publications
+        href: publications.qmd
+      - text: Software
+        href: software.qmd
+      - text: Teaching
+        href: teaching.qmd
+    right:
+      - icon: github
+        href: https://github.com/Data-Wise
+      - icon: envelope
+        href: mailto:dtofighi@gmail.com
+
+  page-footer:
+    center: |
+      © 2025 Davood Tofighi · [mediationverse](https://github.com/Data-Wise/mediationverse)
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    toc: true
+    code-copy: true
