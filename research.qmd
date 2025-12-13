@@ -4,44 +4,69 @@ title: "Research"
 
 ## Overview
 
-My research focuses on developing statistical methodology for **causal inference**, with particular emphasis on **mediation analysis** — understanding the mechanisms through which interventions and exposures affect outcomes.
+My research focuses on developing and evaluating statistical methodologies that enhance the **robustness of statistical inferences** across various analytical domains. I am particularly committed to amplifying the **replicability of statistical methods** in educational, health, and prevention science.
 
-## Research Areas
+## Methodological Research
 
-### Causal Mediation Analysis
+### Causal Inference & Mediation Analysis
 
-Developing methods to decompose total effects into natural direct and indirect effects, addressing:
+Developing methods for understanding causal mechanisms using:
 
-- Identification under various assumptions
-- Sensitivity to unmeasured confounding
-- Multiple mediators and complex pathways
-- Time-varying treatments and mediators
+- **Directed Acyclic Graphs (DAGs)** for causal mediation analysis
+- **Natural direct and indirect effects** decomposition
+- **Sensitivity analysis** for unmeasured confounding
+- **Sequential mediation** with multiple mediators
 
-### Effect Size Measures
+### Statistical & Monte Carlo Sensitivity Analysis
 
-Novel effect size measures for mediation, including:
+Methods to assess robustness of findings:
 
-- **P_med** — Probability-based mediation measure
-- **Proportion mediated** — Traditional and improved versions
-- **E-values** — Sensitivity analysis metrics
+- Sensitivity to violations of causal assumptions
+- Monte Carlo approaches for complex models
+- E-values and other sensitivity metrics
 
-### Statistical Computing
+### Advanced Statistical Modeling
 
-Translating methodology into accessible software:
+- **Generalized linear mixed-effects models**
+- **Multivariate statistics**
+- **Categorical data analysis**
+- Judicious application of **machine learning** to health data
 
-- R packages for the mediationverse ecosystem
-- Computational methods for confidence intervals
-- Simulation tools for power analysis
+## Applied Research
+
+### Drug Delivery Optimization
+
+Collaborating on research to optimize drug delivery formulations with implications for:
+
+- **Cancer research**
+- **COVID-19 therapeutics**
+- Pharmaceutical development
+
+### Prevention Science
+
+Working to improve statistical methods in:
+
+- Educational interventions
+- Health behavior change
+- Public health programs
+
+## Funding
+
+Research supported by:
+
+- **NASA** — National Aeronautics and Space Administration
+- **NSF** — National Science Foundation  
+- **NIH** — National Institutes of Health
 
 ## Collaborations
 
-I collaborate with researchers in:
+I work with researchers across disciplines including:
 
 - Psychology and behavioral sciences
 - Public health and epidemiology
+- Pharmaceutical sciences
 - Educational research
-- Clinical medicine
 
 ---
 
-*Interested in collaboration? [Contact me](mailto:dtofighi@gmail.com)*
+*Interested in collaboration? [Contact me](mailto:dtofighi@unm.edu)*

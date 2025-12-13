@@ -8,7 +8,9 @@ website:
   site-url: https://data-wise.github.io
   
   navbar:
-    background: primary
+    background: dark
+    logo: "assets/logo-placeholder.svg"
+    title: "Davood Tofighi"
     left:
       - text: Home
         href: index.qmd
@@ -27,14 +29,14 @@ website:
         href: mailto:dtofighi@gmail.com
 
   page-footer:
+    background: dark
     center: |
       © 2025 Davood Tofighi · [mediationverse](https://github.com/Data-Wise/mediationverse)
 
 format:
   html:
     theme:
-      light: [default, custom.scss]
-      dark: [darkly, custom.scss]
+      light: [default, warm-academic.scss]
+      dark: [darkly, warm-academic.scss]
     toc: true
     code-copy: true
-    highlight-style: monokai

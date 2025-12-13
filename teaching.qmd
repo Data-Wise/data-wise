@@ -1,47 +1,72 @@
 ---
 title: "Teaching"
 ---
+
 ## Current Courses
 
 ### STAT 440/540: Regression Analysis
-**Fall 2025** · University of New Mexico
+**University of New Mexico**
 
 Topics include:
+
 - Simple and multiple linear regression
-- Model diagnostics and assumptions
+- Model diagnostics and assumption checking
 - Variable selection and model building
-- Logistic regression
-- Introduction to mixed models
+- Logistic regression for binary outcomes
+- Introduction to mixed-effects models
 
 ### STAT 579: Applied Causal Inference
-**Upcoming** · University of New Mexico
+**University of New Mexico**
 
 Topics include:
+
 - Potential outcomes framework
 - Directed acyclic graphs (DAGs)
 - Propensity score methods
 - Instrumental variables
 - Mediation analysis
-- Sensitivity analysis
+- Sensitivity analysis for unmeasured confounding
 
 ---
 
 ## Teaching Philosophy
 
 I believe in:
+
 - **Application-focused learning** — Real data, real problems
-- **Statistical thinking** — Beyond formulas to understanding
+- **Statistical thinking** — Beyond formulas to understanding assumptions
 - **Reproducible workflows** — R, Quarto, version control
 - **Accessible methods** — Bridging theory and practice
+- **Replicability** — Emphasizing robust, reproducible research
 
 ---
 
 ## Student Resources
 
-- [Course materials on Canvas](https://canvas.unm.edu)
-- [R resources](https://data-wise.github.io/mediationverse)
-- Office hours: By appointment
+### Office Hours
+
+📍 SMLC 228  
+📧 [dtofighi@unm.edu](mailto:dtofighi@unm.edu)  
+*By appointment*
+
+### Course Materials
+
+- Course materials available on [UNM Canvas](https://canvas.unm.edu)
+- Software tutorials using R and the [mediationverse](software.qmd)
+
+### Statistics Consulting
+
+The department offers a [Statistics Consulting Clinic](https://math.unm.edu/resources/unm-statistics-consulting-clinic) for UNM researchers.
 
 ---
 
-*Interested in graduate research opportunities? [Contact me](mailto:dtofighi@gmail.com)*
+## Graduate Advising
+
+I advise graduate students in statistics with interests in:
+
+- Causal inference methodology
+- Mediation analysis
+- Statistical computing and software development
+- Applications in health and behavioral sciences
+
+*Interested in graduate research opportunities? [Contact me](mailto:dtofighi@unm.edu)*

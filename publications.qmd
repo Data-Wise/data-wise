@@ -6,19 +6,33 @@ title: "Publications"
 
 *Full list available on [Google Scholar](https://scholar.google.com/citations?user=YOUR_ID)*
 
-### Methodology
+### Statistical Methodology
 
-<!-- Add your key methods papers here -->
+**Mediation Analysis & Confidence Intervals**
 
 - **Tofighi, D.**, & MacKinnon, D. P. (2011). RMediation: An R package for mediation analysis confidence intervals. *Behavior Research Methods*, 43(3), 692-700.
 
-### Applications
+**Sensitivity Analysis**
 
-<!-- Add your applied papers here -->
+<!-- Add sensitivity analysis papers -->
+
+**Mixed-Effects Models**
+
+<!-- Add multilevel/mixed models papers -->
 
 ### Software Papers
 
 - **Tofighi, D.** et al. (2025). mediationverse: A unified R ecosystem for mediation analysis. *In preparation*.
+
+### Applied Research
+
+**Prevention Science**
+
+<!-- Add prevention science applications -->
+
+**Health Research**
+
+<!-- Add health/drug delivery papers -->
 
 ---
 
@@ -26,6 +40,15 @@ title: "Publications"
 
 - Sequential mediation analysis with multiple mediators
 - Sensitivity analysis for causal mediation
+- Machine learning applications in health data
+
+---
+
+## Editorial Service
+
+**Associate Editor**  
+Quantitative Psychology and Measurement  
+*Frontiers in Psychology*
 
 ---
 
@@ -35,8 +58,8 @@ title: "Publications"
 
 - Society for Prevention Research (SPR)
 - American Statistical Association (ASA)
-- Association for Psychological Science (APS)
+- Psychometric Society
 
 ---
 
-*For preprints and working papers, please [contact me](mailto:dtofighi@gmail.com)*
+*For preprints and working papers, please [contact me](mailto:dtofighi@unm.edu)*

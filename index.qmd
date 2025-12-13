@@ -1,45 +1,93 @@
 ---
-title: "Davood Tofighi"
-subtitle: "Associate Professor · University of New Mexico"
-image: assets/profile.jpg
-about:
-  id: hero-heading
-  template: trestles
-  image-shape: round
-  links:
-    - icon: github
-      text: GitHub
-      href: https://github.com/Data-Wise
-    - icon: envelope
-      text: Email
-      href: mailto:dtofighi@gmail.com
-    - icon: mortarboard
-      text: Google Scholar
-      href: https://scholar.google.com/citations?user=YOUR_ID
+title: ""
+pagetitle: "Davood Tofighi"
 ---
 
-:::{#hero-heading}
+::: {.bio-section}
 
-I am an Associate Professor of Statistics at the University of New Mexico, specializing in **causal inference** and **mediation analysis**.
+![](assets/profile-placeholder.svg){.bio-photo}
 
-My research develops statistical methods and software for understanding causal mechanisms in psychology, public health, and behavioral sciences.
+::: {.bio-text}
+# Davood Tofighi, Ph.D.
 
+[Associate Professor · [Department of Mathematics & Statistics](https://math.unm.edu)]{.subtitle}
+
+[University of New Mexico](https://math.unm.edu/people/academic-personnel/davood-tofighi){.institution}
+
+[Causal inference · Mediation analysis · Statistical methodology · Health data science]{.tagline}
+:::
+
+:::
+
+::: {.highlight-box}
+I develop and evaluate statistical methodologies that enhance the **robustness of statistical inferences**. My work focuses on causal inference, DAG-based mediation analysis, sensitivity analysis, and the application of machine learning to health data.
 :::
 
 ## Research Focus
 
-- **Causal Mediation Analysis** — Methods for decomposing total effects into direct and indirect pathways
-- **Sensitivity Analysis** — Assessing robustness to unmeasured confounding
-- **Effect Size Measures** — Novel measures like P_med for mediation
-- **Statistical Software** — The [mediationverse](software.qmd) R package ecosystem
+My research centers on developing methods that amplify the **replicability of statistical methods** in educational, health, and prevention science. I'm particularly interested in:
 
-## Current Projects
+- **Causal mediation analysis** using directed acyclic graphs (DAGs)
+- **Sensitivity analysis** — statistical and Monte Carlo approaches
+- **Generalized linear mixed-effects models**
+- **Multivariate statistics** and categorical data analysis
+- **Machine learning** applications in health research
 
-🔬 **mediationverse** — A unified R ecosystem for mediation analysis  
-📊 **Sequential Mediation** — Methods for complex multi-mediator pathways  
-🛡️ **Sensitivity Methods** — Robustness assessment for causal claims
+::: {.quick-links}
+[📊 Research](research.qmd)
+[📦 Software](software.qmd)
+[📝 Publications](publications.qmd)
+[🎓 Teaching](teaching.qmd)
+[🏛️ UNM Profile](https://math.unm.edu/people/academic-personnel/davood-tofighi)
+:::
 
-## Recent News
+## Applied Research
 
-- **Dec 2025** — mediationverse ecosystem in active development
-- **Fall 2025** — Teaching STAT 440/540 Regression Analysis
+Beyond methodology, I collaborate on substantive research including:
+
+- **Drug delivery optimization** for cancer and COVID-19 research
+- **Prevention science** interventions
+- **Health outcomes** research
+
+## Professional Service
+
+**Associate Editor** — Quantitative Psychology and Measurement section, *Frontiers in Psychology*
+
+## Funding Support
+
+Research supported by **NASA**, **NSF**, and **NIH**.
+
+## Featured Software
+
+### mediationverse
+
+A unified R ecosystem for mediation analysis — model fitting, effect sizes, confidence intervals, sensitivity analysis, and simulation tools.
+
+```r
+# Install the ecosystem
+pak::pak("data-wise/mediationverse")
+```
+
+[→ Learn more about mediationverse](software.qmd)
+
+## Contact
+
+📧 <a href="#" id="email-link">Enable JavaScript to see email</a>  
+🏢 Office: SMLC 228
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var el = document.getElementById('email-link');
+  var u = 'dtofighi';
+  var d = 'unm.edu';
+  el.href = 'mailto:' + u + '@' + d;
+  el.textContent = u + '@' + d;
+});
+</script>
+
+## Profiles
+
+[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-4285F4?style=flat&logo=google-scholar&logoColor=white)](https://scholar.google.com/citations?user=hzQ60YcAAAAJ)
+[![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0000-0001-8523-7776)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/Data-Wise)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/davood-tofighi-b6176ab8/)
